@@ -75,7 +75,7 @@ header {
   margin-bottom: 65px;
   margin-top: 65px; 
   padding-top: 75px;
-  background-image: url("../images/engaged.jpg");
+  background-image: url("../images/pizza.jpg");
   text-align: center;
   float: right;
 }
@@ -106,8 +106,8 @@ header {
   width: 540px;
   height: 360px; 
   margin-bottom: 65px;
-  padding-top: 75px;
-  background-image: url("../images/pizza.jpg");
+  padding-top: 45px;
+  background-image: url("../images/engaged.jpg");
   text-align: center;
   float: left;
 }
@@ -124,14 +124,14 @@ header {
 /* // captions */
 .beach {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 40px;
+  font-size: 55px;
   color: white; 
 }
 .engagement {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 30px;
-  color: black;
-  margin-left: 5px;
+  font-size: 45px;
+  color: white;
+  margin-left: 10px;
   text-align: left; 
 }
 .umbrella {
@@ -142,8 +142,10 @@ header {
 
 .relax {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 50px;
+  font-size: 45px;
   color: black;
+  text-align: left; 
+  margin-left: 2px; 
 }
 
 .pizza {
