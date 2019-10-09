@@ -163,6 +163,16 @@ header {
   margin-left: 10px; 
 }
 
+#box1 {
+  background-color: rgb(36, 36, 36); 
+  margin-top: 52px; 
+  opacity: 0.95; 
+  border-radius: 20%; 
+  height: 400px; 
+  width: 600px; 
+  float: right; 
+}
+
 /* // captions */
 /* .slogan {
   width: 0;
