@@ -1,0 +1,106 @@
+body {
+    margin: 0 0;
+    padding: 60px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+  }
+  
+  header {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 117px; 
+    text-align: center; 
+    color: rgb(39, 39, 39);
+    margin-top: -60px;
+  }
+
+  .topnav { 
+    font-family: 'Open Sans Condensed', sans-serif;
+    float: right;
+    margin-top: -140px;
+    margin-right: 20px; 
+  }
+  
+  a {
+    font-size: 22px;
+    color: rgb(155, 77, 245);
+    text-align: center; 
+  }
+  
+  a:hover {
+    color: rgb(255, 169, 71);
+    text-decoration: none; 
+  }
+  
+  #nunc {
+    font-family: 'Wire One', sans-serif;
+    font-size: 28px; 
+    text-align: center; 
+    color: rgb(39, 39, 39);
+    margin-top: -40px; 
+  }
+
+
+
+ /* // responsiveness  */
+
+@media only screen and (max-width: 300px) {
+    .img1, .img2 {
+      height: 50%;
+    }
+    #saying2 {
+      font-size: 14px;
+    }
+    a {
+      font-size: 14px; 
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6 {
+      margin: 0 auto; 
+    }
+    .beach, .relax, .engagement, .basic, .umbrella, .pizza {
+      font-size: 45px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .img1, .img2 {
+      height: 50%;
+    }
+    #saying2 {
+      font-size: 14px;
+    }
+    a {
+      font-size: 14px; 
+    }
+    .topnav {
+      margin-right: -30px; 
+  }
+    .item1, .item2, .item3, .item4, .item5, .item6 {
+      margin: 0 auto; 
+    }
+    .beach, .relax, .engagement, .basic, .umbrella, .pizza {
+      font-size: 45px;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .img1, .img2 {
+      height: 50%;
+    }
+    #saying2 {
+      font-size: 14px;
+    }
+    .topnav {
+      margin-right: -30px; 
+    }
+    a {
+      font-size: 16px; 
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6 {
+      margin: 0 auto;
+      border: 2px solid white;
+      float: center;
+    }
+    .beach, .relax, .engagement, .basic, .umbrella, .pizza {
+      font-size: 45px;
+    }
+  }
