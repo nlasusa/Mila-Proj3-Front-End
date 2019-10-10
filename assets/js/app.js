@@ -1,3 +1,9 @@
+// navbar 
+
+$("#team").on('click', function(){
+  window.location = "team.html";    
+});
+
 // typing 
 
 var TxtRotate = function(el, toRotate, period) {
@@ -51,3 +57,4 @@ window.onload = function() {
     }
   }
 };
+
