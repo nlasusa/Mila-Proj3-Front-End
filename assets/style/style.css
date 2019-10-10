@@ -183,6 +183,23 @@ a:hover {
   text-decoration: none; 
 }
 
+/* // mobile responsiveness  */
+
+@media only screen and (max-width: 800px) {
+  #saying2 {
+    font-size: 17px;
+  }
+  a {
+    font-size: 14px; 
+  }
+  .item1, .item2, .item3, .item4, .item5, .item6 {
+    margin: 0 auto; 
+  }
+  .beach, .relax, .engagement, .basic, .umbrella, .pizza {
+    font-size: 45px;
+  }
+}
+
 /* // captions */
 /* .slogan {
   width: 0;
