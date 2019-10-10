@@ -4,6 +4,10 @@ $("#team").on('click', function(){
   window.location = "team.html";    
 });
 
+$("#home").on('click', function(){
+  window.location = "index.html";    
+});
+
 // typing 
 
 var TxtRotate = function(el, toRotate, period) {
