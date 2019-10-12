@@ -385,6 +385,10 @@ h3 {
   color:  rgb(201, 198, 198);
 }
 
+.fa-linkedin-in, .fa-slack, .fa-envelope, .fa-phone {
+  cursor: pointer; 
+}
+
 /* // responsiveness  */
 
 @media only screen and (max-width: 300px) {
