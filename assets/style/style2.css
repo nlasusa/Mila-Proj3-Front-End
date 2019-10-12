@@ -384,3 +384,47 @@ h3 {
   font-size: 45px; 
   color:  rgb(201, 198, 198);
 }
+
+/* // responsiveness  */
+
+@media only screen and (max-width: 300px) {
+  .img1, .img2 {
+    height: 50%;
+  }
+  #saying2 {
+    font-size: 14px;
+  }
+  a {
+    font-size: 14px; 
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .img1, .img2 {
+    height: 50%;
+  }
+  #saying2 {
+    font-size: 14px;
+  }
+  .topnav {
+    margin-right: -30px; 
+  }
+  a {
+    font-size: 14px; 
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .img1, .img2 {
+    height: 50%;
+  }
+  #saying2 {
+    font-size: 14px;
+  }
+  a {
+    font-size: 16px; 
+  }
+}
+
+
+
