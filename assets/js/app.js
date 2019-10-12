@@ -62,7 +62,7 @@ window.onload = function() {
   }
 };
 
-// testing 
+// signup
 $('.email').on("change keyup paste",
   function(){
     if($(this).val()){

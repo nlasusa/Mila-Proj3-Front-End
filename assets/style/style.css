@@ -412,3 +412,39 @@ a:hover {
 .whole-registration-form {
   margin-left: 900px;
 }
+
+.login-form {
+  background-color: #353535; 
+  width: 670px;
+  height: 380px; 
+  opacity: 0.95; 
+  padding: 60px; 
+  color: white;
+  border-radius: 10px; 
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 26px; 
+  font-weight: bold; 
+}
+
+#login-welcome {
+  background-color: #353535;
+  color: white; 
+}
+
+.btn {
+  background-color: rgb(255, 255, 255); 
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+.login-form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #eaeaea;
+  color: #757575;
+}
+
+.forgot {
+  color: #e0f528;
+  float: right; 
+}
