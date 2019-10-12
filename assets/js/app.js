@@ -128,3 +128,13 @@ $('.next-button.repeat-password').click(
     $('.success').css("marginTop", 0);
   }
 );
+
+// smooth scrolling for login
+$('login').click(function (e) {
+  e.preventDefault();
+    var target = this.hash;
+   
+$('html, body').animate({
+         scrollTop: $(target).offset().top
+    }, 500);
+});
