@@ -22,12 +22,12 @@ body {
   
   a {
     font-size: 22px;
-    color: rgb(155, 77, 245);
+    color: rgb(47, 47, 48);
     text-align: center; 
   }
   
   a:hover {
-    color: rgb(47, 47, 48);
+    color: rgb(255, 175, 27);
     text-decoration: none; 
   }
   
