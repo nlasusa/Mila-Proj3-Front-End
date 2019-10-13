@@ -185,45 +185,6 @@ a:hover {
 
 /* // responsiveness  */
 
-@media only screen and (max-width: 300px) {
-  .img1, .img2 {
-    height: 50%;
-  }
-  #saying2 {
-    font-size: 14px;
-  }
-  a {
-    font-size: 14px; 
-  }
-  .item1, .item2, .item3, .item4, .item5, .item6 {
-    margin: 0 auto; 
-  }
-  .beach, .relax, .engagement, .basic, .umbrella, .pizza {
-    font-size: 45px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .img1, .img2 {
-    height: 50%;
-  }
-  #saying2 {
-    font-size: 14px;
-  }
-  .topnav {
-    margin-right: 20px; 
-  }
-  a {
-    font-size: 14px; 
-  }
-  .item1, .item2, .item3, .item4, .item5, .item6 {
-    margin: 0 auto; 
-  }
-  .beach, .relax, .engagement, .basic, .umbrella, .pizza {
-    font-size: 45px;
-  }
-}
-
 @media only screen and (max-width: 1200px) {
   .img1, .img2 {
     height: 50%;
@@ -233,6 +194,9 @@ a:hover {
   }
   a {
     font-size: 16px; 
+  }
+  .topnav {
+    margin-right: 20px; 
   }
   .item1, .item2, .item3, .item4, .item5, .item6 {
     margin: 0 auto;
